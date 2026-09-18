@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table {
+    max-width: 1200px;
+    border: 3px solid #333;
+    border-collapse: collapse;
+}
+
+.table-header {
+    text-align: center;
+    padding:20px;
+    border: 3px solid #333;
+    border-bottom: none;
+}
+
+.table th,td{
+    width: 100%;
+    border: 1px solid #333;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.table .left {
+    text-align: left;
+}
+
+.strong-border {
+    border-bottom: 3px solid #333;
+}
